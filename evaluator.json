@@ -1,0 +1,60 @@
+{
+  "expression": {
+    "left": {
+      "left": {
+        "left": {
+          "value": 3.0
+        },
+        "operator": "PLUS",
+        "right": {
+          "value": 4.0
+        }
+      },
+      "operator": "MINUS",
+      "right": {
+        "left": {
+          "value": 3.0
+        },
+        "operator": "ASTERISK",
+        "right": {
+          "left": {
+            "expression": {
+              "left": {
+                "left": {
+                  "value": 3.0
+                },
+                "operator": "MINUS",
+                "right": {
+                  "left": {
+                    "value": 2.0
+                  },
+                  "operator": "ASTERISK",
+                  "right": {
+                    "name": "x"
+                  }
+                }
+              },
+              "operator": "PLUS",
+              "right": {
+                "value": 1.0
+              }
+            }
+          },
+          "operator": "CARET",
+          "right": {
+            "value": 6.0
+          }
+        }
+      }
+    },
+    "operator": "MINUS",
+    "right": {
+      "value": 1.0
+    }
+  },
+  "context": {
+    "arguments": {
+      "x": 10.0
+    }
+  }
+}
